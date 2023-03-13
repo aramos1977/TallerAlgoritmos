@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* aca se tarabaja con el color del fondo */
+body{
+   background: linear-gradient(90deg, #183da4 0%, #08174a 50%);
+   margin: 3.5rem 0 0 0;
+   font-family: "Montserrat", sans-serif;
+   overflow-x: hidden;
+   font-size: 0.938rem;
+   color: #fff;
+   display: grid;
+   align-items: center;
+}
+/*aca se modifican los valores del los botones*/
+.form-label{
+   padding: 5px 5px;
+   border-radius: 45px;
+   padding-top:1px;
+   padding-bottom:1px;
+   padding-left:10px;
+   padding-right:10px;
+   border: 1px solid #000000;
+}
+
+/* aca se le da color a los botones */
+.form-control {
+   padding: 5px 5px;
+   border-radius: 45px;
+   padding-top:15px;
+   padding-bottom:15px;
+   padding-left:30px;
+   padding-right:30px;
+   border: 1px solid #000000;
+}
+
+/* aca se trabaja el color de los correos */
+.contacto {
+  color:#fff (0,145,255);
+  display: flex;
+  margin:30px;
+  padding:20px 10px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: left;
+  display: grid;
+}
+/* aca se trabaja con el boton */
+.button {
+   background-color: #05593a;
+   color: #fff;
+   padding: 5px 5px;
+   border-radius:  35px;
+   padding-top:15px;
+   padding-bottom:15px;
+   padding-left:40px;
+   padding-right:40px;
+}
+/* aca se trabaja con el resultado */
+.container2 {
+   background-color: #05593a;
+   color:#e6e7ec;
+   padding: 5px 5px;
+   border-radius: 35px;
+   padding-top:15px;
+   padding-bottom:15px;
+   padding-left:40px;
+   padding-right:40px;
+   border: 1px solid #000000;
+}
+
+
+/* aca se trabaja con el footer o el pie de pagina */
+.footer {
+  background-color: #202020;
+  color:white
+  width: 960px;
+  margin:0px;
+  padding:20px 10px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center;
+  display: grid;
+  align-items: center;
+}
